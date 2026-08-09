@@ -12,6 +12,7 @@ public class C2_Encapsulation {
     public int getCapacity() {
         return capacity;
     }
+
     // setter methods for name and capacity
     public void setName(String name) {
         if (name != null && !name.isEmpty()) {

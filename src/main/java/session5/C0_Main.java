@@ -29,7 +29,7 @@ public class C0_Main {
 //        C1_TrainingCompany codeMasters = new C1_TrainingCompany("123456", "789", -100, true);
 //        codeMasters.displayCompanyInfo();
 
-//        C1_TrainingCompany tp2 = new C1_TrainingCompany("Traing Providers");
+//        C1_TrainingCompany tp2 = new C1_TrainingCompany("Training Providers");
 //        tp2.displayCompanyInfo();
 //
 //        C1_TrainingCompany tp3 = new C1_TrainingCompany("tp3", "address");
