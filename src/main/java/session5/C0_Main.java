@@ -26,12 +26,24 @@ public class C0_Main {
 
 
         // Using parameterized constructor
-        C1_TrainingCompany codeMasters = new C1_TrainingCompany("Masters", "789", 100, true);
-        codeMasters.displayCompanyInfo();
+//        C1_TrainingCompany codeMasters = new C1_TrainingCompany("123456", "789", -100, true);
+//        codeMasters.displayCompanyInfo();
 
-        C1_TrainingCompany tp2 = new C1_TrainingCompany("Traing Providers");
-        tp2.displayCompanyInfo();
+//        C1_TrainingCompany tp2 = new C1_TrainingCompany("Traing Providers");
+//        tp2.displayCompanyInfo();
+//
+//        C1_TrainingCompany tp3 = new C1_TrainingCompany("tp3", "address");
 
-        C1_TrainingCompany tp3 = new C1_TrainingCompany("tp3", "address");
+        // Using encapsulation
+
+        C2_Encapsulation encapsulationExample = new C2_Encapsulation();
+        encapsulationExample.setName("");
+        encapsulationExample.setCapacity(-100);
+
+
+
+
+
+
     }
 }
