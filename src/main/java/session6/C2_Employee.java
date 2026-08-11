@@ -11,6 +11,12 @@ public class C2_Employee extends C1_Person {
 
     // Methods
     public void getSalary(){
+        System.out.println("Salary: " + salary);
+    }
+
+    @Override
+    public void displayInfo(){
+        super.displayInfo();
         System.out.println("Employee ID: " + employeeId);
         System.out.println("Salary: " + salary);
     }

@@ -51,7 +51,6 @@ public class C1_TrainingCompany {
 
     public void teachCourse(String courseName) {
         System.out.println("Teaching course: " + courseName);
-
     }
 
 

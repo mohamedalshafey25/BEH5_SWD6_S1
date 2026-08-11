@@ -11,6 +11,16 @@ public class C4_FullTimeEmployee extends C2_Employee{
     // Constructor
 
     // Methods
+    @Override
+    public void displayInfo(){
+
+        super.displayInfo();
+        System.out.println(basicSalary);
+        System.out.println(bonus);
+        System.out.println(deductions);
+
+    }
+
     public void getFullTimeSalary(){
         System.out.println("Basic Salary: "+ basicSalary );
         System.out.println("Bonus: " + bonus);

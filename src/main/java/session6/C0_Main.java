@@ -9,6 +9,12 @@ public class C0_Main {
         C1_Person emp1 = new C1_Person();
         C1_Person emp3 = new C2_Employee();
 
+        // Method Overriding
+//        emp3.displayInfo();
+
+
+
+
         // Employee object
         C2_Employee emp2 = new C2_Employee();
 
@@ -42,18 +48,22 @@ public class C0_Main {
         ft1.deductions = 100.0;
 //        ft1.displayInfo();
 //        ft1.getFullTimeSalary();
+        ft1.displayInfo();
 
+
+        // Static Variable (Related to Class not Objects)
         C4_FullTimeEmployee ft2 = new C4_FullTimeEmployee();
         C4_FullTimeEmployee ft3 = new C4_FullTimeEmployee();
         C4_FullTimeEmployee ft4 = new C4_FullTimeEmployee();
 
-        System.out.println(ft1.count());
-        System.out.println(ft2.count());
-        System.out.println(ft3.count());
-        System.out.println(ft4.count());
+//        System.out.println(ft1.count());
+//        System.out.println(ft2.count());
+//        System.out.println(ft3.count());
+//        System.out.println(ft4.count());
 
         // Part Time Employee
         C5_PartTimeEmployee pt1 = new C5_PartTimeEmployee();
+
 
 
     }
