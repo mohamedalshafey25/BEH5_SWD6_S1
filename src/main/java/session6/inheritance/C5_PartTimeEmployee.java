@@ -1,4 +1,4 @@
-package session6;
+package session6.inheritance;
 
 public class C5_PartTimeEmployee extends C2_Employee{
 

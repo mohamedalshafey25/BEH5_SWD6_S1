@@ -1,4 +1,4 @@
-package session6;
+package session6.inheritance;
 
 public class C3_Student extends C1_Person {
 

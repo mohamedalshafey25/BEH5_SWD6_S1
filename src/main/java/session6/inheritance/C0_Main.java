@@ -1,6 +1,4 @@
-package session6;
-
-import java.util.Scanner;
+package session6.inheritance;
 
 public class C0_Main {
     public static void main(String[] args) {
